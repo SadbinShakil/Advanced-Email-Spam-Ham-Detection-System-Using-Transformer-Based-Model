@@ -1,18 +1,34 @@
-# 📧 Advanced Email Spam-Ham Detection System using Transformer-Based Models
+<div align="center">
 
-A smart, feedback-driven system to detect email spam using traditional ML algorithms and a fine-tuned Transformer model — all wrapped in an interactive web app.
+# 📧 Advanced Email Spam-Ham Detection System  
+### 💡 Powered by Transformers, Fine-Tuning, and Real-Time Feedback
+
+<img src="https://img.shields.io/badge/Transformer-DistilBERT-green?style=flat-square"/>
+<img src="https://img.shields.io/badge/Framework-Flask-blue?style=flat-square"/>
+<img src="https://img.shields.io/badge/Language-Python3.8-yellow?style=flat-square"/>
+<img src="https://img.shields.io/badge/License-MIT-purple?style=flat-square"/>
+
+</div>
 
 ---
 
-## 🚀 Features
+## 🎥 Live Demo Preview
 
-- ✅ Fine-tuned **DistilBERT Transformer** for spam detection
-- ⚙️ Compare models: Logistic Regression, Random Forest, Gradient Boosting
-- 📈 Real-time predictions with confidence scores
-- 🧠 Feedback system that **learns from users** over time
-- 📊 Interactive visualizations using **Chart.js**
-- 🌐 Flask-based web app with modern UI
-- 🔐 Emails are processed **in-memory** to ensure privacy
+> 📽️ Here's a walkthrough of the interactive web app in action:
+
+![Demo](demo.gif)  
+<!-- Replace demo.gif with your actual GIF file uploaded to the repo -->
+
+---
+
+## 🚀 Features at a Glance
+
+- 🤖 **Fine-tuned DistilBERT** spam detector
+- 🧠 Real-time predictions with **confidence scores**
+- 🔄 Continuous **learning from user feedback**
+- 📊 Compare: Logistic Regression, Random Forest, Gradient Boosting
+- 🌐 Sleek Flask web interface with interactive charts (Chart.js)
+- 🔒 Emails processed **in-memory** for privacy
 
 ---
 
@@ -27,19 +43,30 @@ A smart, feedback-driven system to detect email spam using traditional ML algori
 
 ---
 
-## 🛠️ Installation & Running Locally
+## 💻 Screenshots
+
+<p float="left">
+  <img src="screenshots/predict.png" width="45%" />
+  <img src="screenshots/chart.png" width="45%" />
+</p>
+
+_Add more screenshots in `/screenshots/` folder and update names accordingly_
+
+---
+
+## 🛠️ Installation Guide
 
 ```bash
-# Clone the repository
+# 1. Clone the repo
 git clone https://github.com/SadbinShakil/Advanced-Email-Spam-Ham-Detection-System-Using-Transformer-Based-Model.git
 cd Advanced-Email-Spam-Ham-Detection-System-Using-Transformer-Based-Model
 
-# Set up virtual environment
+# 2. Create virtual environment
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 
-# Install required packages
+# 3. Install dependencies
 pip install -r requirements.txt
 
-# Run the Flask web application
+# 4. Run the app
 python app.py
