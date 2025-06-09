@@ -50,7 +50,7 @@
   <img src="screenshots/chart.png" width="45%" />
 </p>
 
-_Add more screenshots in `/screenshots/` folder and update names accordingly_
+_screenshots _
 
 ---
 
